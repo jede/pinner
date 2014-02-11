@@ -1,6 +1,6 @@
 {
     "name": "__MSG_appName__",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "manifest_version": 2,
     "description": "__MSG_appDescription__",
     "icons": {
@@ -21,11 +21,19 @@
     ],
     "commands": {
         "toggle-pinned": {
-            "suggested_key": {
-                "default": "Ctrl+Shift+I",
-                "mac": "Command+Shift+I"
-            },
-            "description": "Pin/unpin the current tab"
+          "suggested_key": {
+            "default": "Ctrl+Shift+I",
+            "mac": "Command+Shift+I"
+          }, 
+          "description": "Pin/unpin the current tab"
+        },
+        "close-unpinned": {
+          "suggested_key": {
+            "default": "Ctrl+Shift+U",
+            "mac": "Command+Shift+U"
+          }, 
+          "description": "Close unpinned tabs"
         }
+
     }
 }
